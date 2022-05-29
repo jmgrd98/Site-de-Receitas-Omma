@@ -1,0 +1,175 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 100%;
+}
+
+header{
+    background-color: #FFC107;
+    text-align: center;
+    height: 90px;
+    width: 1440px;
+}
+
+header img{
+    width: 324px;
+    height: 84px;
+}
+
+
+nav{
+    background-color: #FFA000;
+    height: 48px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+    
+}
+
+main{
+    margin: 100px;
+    display: flex;;
+    width: 500px;
+    text-transform: lowercase;
+}
+
+#container{
+    display:flex;
+    flex-direction:column;
+}
+
+main h1{
+    color: #FFA000;
+    width: 500px;
+    height: 61px;
+    font-size: 50px;
+    margin: 50px 0px;
+}
+
+.receitas{
+    position: absolute;
+    top: 400px;
+    left: 122px;
+    right: 122px;
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 466px;
+    width: 449px;
+    left: 119px;
+    top: 500px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.item img{
+    width: 345px;
+    height: 345px;
+    
+}
+
+.item h2{
+    font-size: 26px;
+    margin: 20px;
+}
+
+button{
+    color: #176902;
+    background-color: white;
+    font-weight: 700;
+    padding: 5px 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 20px;
+    width: 200px;
+}
+
+#ingredientes{
+width: 450px;
+text-transform: lowercase;
+margin: 50px 20px;
+}
+
+#ingredientes h2{
+    margin: 20px 0px;
+}
+
+#preparo{
+    width: 500px;
+}
+
+iframe{
+width: 580px;
+height: 317px;
+margin: 20px 0px;
+}
+
+#preparo h2{
+    margin: 20px 0px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 200px;
+}
+
+aside h2{
+    color:#FFA000;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+article{
+    
+    width: 345px;
+    height: 400px;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 26px;
+    margin: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer{
+    background-color: #FFC107;
+width: 1440px;
+height: 119px;
+color: white;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+
+

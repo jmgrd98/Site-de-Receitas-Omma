@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+}
+
+    header{
+        background-color: #FFC107;
+        text-align: center;
+        height: 90px;
+        width: 100%;
+        z-index: 2;
+    }
+    
+    nav{
+        background-color: #FFA000;
+        height: 48px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 20px;
+        cursor: pointer;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #topo{
+        background-image: url('imagem-contato.png');
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+    }
+
+    h1{
+        color: white;
+        font-size: 70px;
+        font-weight: 700;
+        margin: 0px 50px;
+        width: 400px;
+    }
+
+    #formulario{
+        height: 770px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFC107;
+        margin: 100px;
+        padding: 0px 100px;
+    }
+
+    form{
+        margin: 0px 50px;
+        height: 770px;
+        width: 820px;
+        display: flex;
+        flex-direction: column;
+        border: 5px solid #FFC107;
+        border-radius: 50px;
+    }
+
+    caption{
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    input{
+        color:#FFC107;
+    }
+
+    footer{
+        background-color: #FFC107;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    }

@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+}
+
+    header{
+        background-color: #FFC107;
+        text-align: center;
+        height: 90px;
+        width: 100%;
+        z-index: 2;
+    }
+    
+    nav{
+        background-color: #FFA000;
+        height: 48px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 20px;
+        cursor: pointer;
+    }
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+#topo{
+    height: 638px;
+    width: 100%;
+    background-image: url('imagem.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    color: white;
+    width: 370px;
+    font-size: 70px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36)
+}
+
+.receitas-da-semana h2{
+    color: #FFA000;
+    text-align: center;
+    margin: 20px;
+    font-size: 55px;
+    width: 100%;
+}
+
+.receitas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+article{
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+article img{
+    width: 345px;
+    height: 342px;
+}
+
+article button{
+    width: 185px;
+    height: 48px;
+    font-size: 24px;
+    padding: 5px 25px;
+    font-weight: bold;
+    color: white;
+    background-color: #176902;
+    cursor: pointer;
+}
+
+#final{
+    height: 772px;
+    width: 100%;
+    background-image: url('imagem2.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+#final h2{
+    color: white;
+    font-size: 65px;
+    width: 588px;
+margin: 20px;
+margin-left: 50px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36)
+}
+
+#final p{
+    font-size: 24px;
+    color: white;
+    width: 340px;
+    margin: 20px;
+    margin-left: 50px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+footer{
+    background-color: #FFC107;
+width: 100%;
+color: white;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
